@@ -11,3 +11,8 @@ The values of the loop can be hooked into anything that can take a parameter
 from 0 to 255, so visualizations, LEDs, or sounds for example.  The range of
 values can be changed, I just used 0 to 255 because I wrote this app to control
 PWM on the Arduino.  
+
+This Processing code can also be run in the browser, using processingjs.  So
+from a codebase with really only one small change (see the blog post linked
+above) you can have an application running as a desktop app, an Android app, and
+a web app.   
